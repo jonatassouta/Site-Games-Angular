@@ -1,0 +1,50 @@
+<style>
+    html {
+        height: 100vh;
+    }
+
+    .container-contato{  
+        text-align: center;      
+        padding: 30%;
+        padding-top: 3%;
+    }
+
+    .row.form {
+        justify-content: center;
+    }
+    .container.form {
+        margin-top: 60px;
+        border-radius: 5px;
+        /* border: 1px solid black; */
+        padding: 20px;
+        width: 500px;
+    }
+</style>
+
+<div class="container form position-absolute top-50 start-50 translate-middle">
+    <div class="row form">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Qual jogo deseja pedir?</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome completo do jogo">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="16 99999-9999">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Observações</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+
+        <input type="submit" class="btn btn-primary form-control" value="Fazer Pedido">
+    </div>
+    
+</div>
